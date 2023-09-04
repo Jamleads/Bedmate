@@ -164,19 +164,6 @@ body {
     z-index: 1;
   }
 }
-.on-mobile-show {
-  display: none;
-}
-.cont {
-  opacity: 0;
-  transform: translateY(100px);
-  transition: opacity 1s, transform 0.5s;
-}
-.animate {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 .footer {
   .footer-top {
     border-bottom: solid 1px #0a142f;
@@ -194,7 +181,27 @@ body {
   }
 }
 
-.text {
+// singles
+.on-mobile-show {
+  display: none;
+}
+.cont {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s, transform 0.5s;
+}
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-active {
+  background: green !important;
+  color: #fff !important;
+}
+
+// testing
+.testing {
   background: linear-gradient(132deg, #ff7448 26%, #ff4848 51%, #6248ff 75%);
   color: rgb(235, 229, 229);
   //   #FF7448, #6248#FF4848, FF

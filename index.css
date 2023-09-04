@@ -116,6 +116,14 @@ body {
   .showcase .showcase-text {
     z-index: 1; }
 
+.footer .footer-top {
+  border-bottom: solid 1px #0a142f; }
+  .footer .footer-top .quick-links-mobile {
+    display: none; }
+
+.footer .footer-down .social-links div {
+  border: 1px solid #0a142f; }
+
 .on-mobile-show {
   display: none; }
 
@@ -128,15 +136,11 @@ body {
   opacity: 1;
   transform: translateY(0); }
 
-.footer .footer-top {
-  border-bottom: solid 1px #0a142f; }
-  .footer .footer-top .quick-links-mobile {
-    display: none; }
+.btn-active {
+  background: green !important;
+  color: #fff !important; }
 
-.footer .footer-down .social-links div {
-  border: 1px solid #0a142f; }
-
-.text {
+.testing {
   background: linear-gradient(132deg, #ff7448 26%, #ff4848 51%, #6248ff 75%);
   color: #ebe5e5; }
 

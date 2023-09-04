@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "run test",
-    "compile:sass": "node-sass sass/style.scss src/index.css -w",
-    "tailwind:build": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
+    "compile:sass": "node-sass sass/style.scss index.css -w",
+    "tailwind:build": "npx tailwindcss -i index.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "sexual",
