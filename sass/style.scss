@@ -167,7 +167,6 @@ body {
 .on-mobile-show {
   display: none;
 }
-
 .cont {
   opacity: 0;
   transform: translateY(100px);
@@ -177,6 +176,24 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+.footer {
+  .footer-top {
+    border-bottom: solid 1px #0a142f;
+    .quick-links-mobile {
+      display: none;
+    }
+  }
+
+  .footer-down {
+    .social-links {
+      div {
+        border: 1px solid #0a142f;
+      }
+    }
+  }
+}
+
 .text {
   background: linear-gradient(132deg, #ff7448 26%, #ff4848 51%, #6248ff 75%);
   color: rgb(235, 229, 229);
@@ -233,5 +250,16 @@ body {
   }
   .on-mobile-show {
     display: block;
+  }
+  .footer {
+    .footer-top {
+      border: none;
+      .quick-links {
+        display: none;
+      }
+      .quick-links-mobile {
+        display: block;
+      }
+    }
   }
 }
